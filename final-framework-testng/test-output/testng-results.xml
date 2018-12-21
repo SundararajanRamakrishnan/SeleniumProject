@@ -1,65 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="561" started-at="2018-12-17T19:55:39Z" finished-at="2018-12-17T19:55:40Z">
+  <suite name="Sample test Suite" duration-ms="173526" started-at="2018-12-21T04:59:41Z" finished-at="2018-12-21T05:02:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="561" started-at="2018-12-17T19:55:39Z" finished-at="2018-12-17T19:55:40Z">
-      <class name="com.training.regression.tests.LoginExcelTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.LoginExcelTest@cc285f4]" name="setUpBeforeClass" is-config="true" duration-ms="13" started-at="2018-12-18T01:25:39Z" finished-at="2018-12-18T01:25:39Z">
+    <test name="Sample test1" duration-ms="17701" started-at="2018-12-21T04:59:41Z" finished-at="2018-12-21T04:59:59Z">
+      <class name="com.training.sanity.tests.LoginTests">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.LoginTests@675d3402]" name="setUpBeforeClass" is-config="true" duration-ms="14" started-at="2018-12-21T10:29:41Z" finished-at="2018-12-21T10:29:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="SKIP" signature="loginDBTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@cc285f4]" name="loginDBTest" duration-ms="0" started-at="2018-12-18T01:25:40Z" data-provider="excel-inputs" finished-at="2018-12-18T01:25:40Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 0, Size: 0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
-	at java.util.ArrayList.rangeCheck(Unknown Source)
-	at java.util.ArrayList.get(Unknown Source)
-	at com.training.dataproviders.LoginDataProviders.getExcelData(LoginDataProviders.java:45)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTests@675d3402]" name="setUp" is-config="true" duration-ms="10429" started-at="2018-12-21T10:29:41Z" finished-at="2018-12-21T10:29:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDBTest -->
-      </class> <!-- com.training.regression.tests.LoginExcelTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.LoginTests@675d3402]" name="validLoginTest" duration-ms="5065" started-at="2018-12-21T10:29:51Z" finished-at="2018-12-21T10:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTests@675d3402]" name="tearDown" is-config="true" duration-ms="2161" started-at="2018-12-21T10:29:56Z" finished-at="2018-12-21T10:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.LoginTests -->
+    </test> <!-- Sample test1 -->
+    <test name="Sample test2" duration-ms="45598" started-at="2018-12-21T04:59:59Z" finished-at="2018-12-21T05:00:44Z">
+      <class name="com.training.sanity.tests.Add_Classes">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Add_Classes@61832929]" name="setUpBeforeClass" is-config="true" duration-ms="8383" started-at="2018-12-21T10:29:59Z" finished-at="2018-12-21T10:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="validAdminTest()[pri:0, instance:com.training.sanity.tests.Add_Classes@61832929]" name="validAdminTest" duration-ms="34751" started-at="2018-12-21T10:30:07Z" finished-at="2018-12-21T10:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAdminTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Add_Classes@61832929]" name="tearDown" is-config="true" duration-ms="2460" started-at="2018-12-21T10:30:42Z" finished-at="2018-12-21T10:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.Add_Classes -->
+    </test> <!-- Sample test2 -->
+    <test name="Sample test3" duration-ms="49499" started-at="2018-12-21T05:00:44Z" finished-at="2018-12-21T05:01:34Z">
+      <class name="com.training.sanity.tests.Add_Suscribers">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Add_Suscribers@59f99ea]" name="setUpBeforeClass" is-config="true" duration-ms="10416" started-at="2018-12-21T10:30:44Z" finished-at="2018-12-21T10:30:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="validSuscribeTest()[pri:0, instance:com.training.sanity.tests.Add_Suscribers@59f99ea]" name="validSuscribeTest" duration-ms="36965" started-at="2018-12-21T10:30:55Z" finished-at="2018-12-21T10:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSuscribeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Add_Suscribers@59f99ea]" name="tearDown" is-config="true" duration-ms="2108" started-at="2018-12-21T10:31:32Z" finished-at="2018-12-21T10:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.Add_Suscribers -->
+    </test> <!-- Sample test3 -->
+    <test name="Sample test4" duration-ms="39060" started-at="2018-12-21T05:01:34Z" finished-at="2018-12-21T05:02:13Z">
+      <class name="com.training.sanity.tests.Add_Courses">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Add_Courses@42d80b78]" name="setUpBeforeClass" is-config="true" duration-ms="9499" started-at="2018-12-21T10:31:34Z" finished-at="2018-12-21T10:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="validCourseTest()[pri:0, instance:com.training.sanity.tests.Add_Courses@42d80b78]" name="validCourseTest" duration-ms="27480" started-at="2018-12-21T10:31:43Z" finished-at="2018-12-21T10:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCourseTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Add_Courses@42d80b78]" name="tearDown" is-config="true" duration-ms="2075" started-at="2018-12-21T10:32:11Z" finished-at="2018-12-21T10:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.Add_Courses -->
+    </test> <!-- Sample test4 -->
+    <test name="Sample test5" duration-ms="21512" started-at="2018-12-21T05:02:13Z" finished-at="2018-12-21T05:02:34Z">
+      <class name="com.training.sanity.tests.Logout">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Logout@685cb137]" name="setUpBeforeClass" is-config="true" duration-ms="9104" started-at="2018-12-21T10:32:13Z" finished-at="2018-12-21T10:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="validDeleteTest()[pri:0, instance:com.training.sanity.tests.Logout@685cb137]" name="validDeleteTest" duration-ms="12393" started-at="2018-12-21T10:32:22Z" finished-at="2018-12-21T10:32:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDeleteTest -->
+      </class> <!-- com.training.sanity.tests.Logout -->
+    </test> <!-- Sample test5 -->
+  </suite> <!-- Sample test Suite -->
 </testng-results>
