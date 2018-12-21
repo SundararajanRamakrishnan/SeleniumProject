@@ -56,10 +56,18 @@ public class CoursePOM {
 		
 	}
 	
-	public String CoursesSuscribed()
+	public boolean CoursesSuscribed()
 	{
-		String coursevalue = this.ViewRowValue.getText();
-		return coursevalue;
+	
+		if (this.ViewRowValue.isDisplayed())
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		
 		
 	}
 

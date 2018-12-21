@@ -1,3 +1,7 @@
+/**
+ * This test will add classes available
+ */
+
 package com.training.sanity.tests;
 
 import java.io.FileInputStream;
@@ -42,20 +46,6 @@ public class Add_Classes {
 		driver.get(baseUrl);
 		
 	}
-	/*
-	@BeforeTest
-	public void setUpTest() throws Exception {
-		driver = DriverFactory.getDriver(DriverNames.CHROME);
-		loginPOM = new LoginPOM(driver); 
-		adminPOM = new AdminPOM(driver);
-		suscribePOM = new SuscribePOM(driver);
-		baseUrl = properties.getProperty("baseURL");
-		screenShot = new ScreenShot(driver); 
-		// open the browser 
-		driver.get(baseUrl);
-	}
-	*/
-	
 	
 	@AfterMethod
 	public void tearDown() throws Exception {

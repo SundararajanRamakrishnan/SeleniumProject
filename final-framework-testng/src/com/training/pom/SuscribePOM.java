@@ -74,10 +74,16 @@ private WebDriver driver;
 		
 	}
 	
-	public String UsersSuscribed()
+	public boolean UsersSuscribed()
 	{
-		String uservalue = this.ViewRowValue.getText();
-		return uservalue;
+		if (this.ViewRowValue.isDisplayed())
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 		
 	}
 

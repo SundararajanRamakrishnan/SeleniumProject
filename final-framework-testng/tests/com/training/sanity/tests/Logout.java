@@ -1,3 +1,6 @@
+/**
+ * This Test will Logout of the Application
+ */
 package com.training.sanity.tests;
 
 import java.io.FileInputStream;
@@ -44,27 +47,12 @@ public class Logout {
 		driver.get(baseUrl);
 		
 	}
-	/*
-	@BeforeTest
-	public void setUpTest() throws Exception {
-		driver = DriverFactory.getDriver(DriverNames.CHROME);
-		loginPOM = new LoginPOM(driver); 
-		adminPOM = new AdminPOM(driver);
-		suscribePOM = new SuscribePOM(driver);
-		baseUrl = properties.getProperty("baseURL");
-		screenShot = new ScreenShot(driver); 
-		// open the browser 
-		driver.get(baseUrl);
-	}
-	*/
 	
-	/*
 	@AfterMethod
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
 		driver.quit();
-	}*/
-	
+	}	
 	
 	@Test 
 	public void validDeleteTest() throws InterruptedException {
@@ -87,11 +75,6 @@ public class Logout {
 		Assert.assertEquals(ExpLogout, ActLogout);
 		System.out.println("The Logout is " + ExpLogout +"  " + ActLogout );
 		logoutPOM.ClickDDOptionsLogout();
-		Thread.sleep(2000);
-		
-		
-		
+		Thread.sleep(2000);		
 	}
-
-
 }

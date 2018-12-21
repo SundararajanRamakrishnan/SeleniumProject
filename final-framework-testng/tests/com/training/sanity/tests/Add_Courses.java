@@ -1,3 +1,6 @@
+/**
+ * This test will Add Courses from the list available
+ */
 package com.training.sanity.tests;
 
 import java.io.FileInputStream;
@@ -45,21 +48,7 @@ public class Add_Courses {
 		driver.get(baseUrl);
 		
 	}
-	/*
-	@BeforeTest
-	public void setUpTest() throws Exception {
-		driver = DriverFactory.getDriver(DriverNames.CHROME);
-		loginPOM = new LoginPOM(driver); 
-		adminPOM = new AdminPOM(driver);
-		suscribePOM = new SuscribePOM(driver);
-		baseUrl = properties.getProperty("baseURL");
-		screenShot = new ScreenShot(driver); 
-		// open the browser 
-		driver.get(baseUrl);
-	}
-	*/
-	
-	
+		
 	@AfterMethod
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
@@ -73,23 +62,16 @@ public class Add_Courses {
 		loginPOM.sendUserName("admin");
 		loginPOM.sendPassword("admin@123");
 		loginPOM.clickLoginBtn();
-		//Thread.sleep(5000);
 		adminPOM.AddClassLink();
 		Thread.sleep(5000);
 		adminPOM.ViewTable();
 		Thread.sleep(4000);
 		coursePOM.ClickAddCourse();
-		/*
-		boolean ExpectedText = true;
-		boolean ActualText = suscribePOM.TextDisplay();
-		Assert.assertEquals(ExpectedText, ActualText);
-		*/
 		Thread.sleep(3000);
 		coursePOM.SelectCourses();
-		coursePOM.ClickSuscribeCourseButton();
-		
-		String ExpUsers = "1";
-		String ActUsers = coursePOM.CoursesSuscribed();
+		coursePOM.ClickSuscribeCourseButton();		
+		boolean ExpUsers = true;
+		boolean ActUsers = coursePOM.CoursesSuscribed();
 		Assert.assertEquals(ExpUsers, ActUsers);
 		System.out.println("The users are " + ExpUsers +"  " + ActUsers );
 		

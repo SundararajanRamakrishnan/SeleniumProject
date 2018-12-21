@@ -1,3 +1,7 @@
+/**
+ * The Test will select and add the Subscribers to the Classes.
+ */
+
 package com.training.sanity.tests;
 
 import java.io.FileInputStream;
@@ -40,23 +44,8 @@ public class Add_Suscribers {
 		screenShot = new ScreenShot(driver); 
 		// open the browser 
 		driver.get(baseUrl);
+	}
 		
-	}
-	/*
-	@BeforeTest
-	public void setUpTest() throws Exception {
-		driver = DriverFactory.getDriver(DriverNames.CHROME);
-		loginPOM = new LoginPOM(driver); 
-		adminPOM = new AdminPOM(driver);
-		suscribePOM = new SuscribePOM(driver);
-		baseUrl = properties.getProperty("baseURL");
-		screenShot = new ScreenShot(driver); 
-		// open the browser 
-		driver.get(baseUrl);
-	}
-	*/
-	
-	
 	@AfterMethod
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
@@ -76,16 +65,11 @@ public class Add_Suscribers {
 		adminPOM.ViewTable();
 		Thread.sleep(4000);
 		suscribePOM.ClickAddSuscribe();
-		/*
-		boolean ExpectedText = true;
-		boolean ActualText = suscribePOM.TextDisplay();
-		Assert.assertEquals(ExpectedText, ActualText);
-		*/
 		Thread.sleep(3000);
 		suscribePOM.SelMultipleUsers();
 		suscribePOM.ClickSuscribeButton();
-		String ExpUsers = "2";
-		String ActUsers = suscribePOM.UsersSuscribed();
+		boolean ExpUsers = true;
+		boolean ActUsers = suscribePOM.UsersSuscribed();
 		Assert.assertEquals(ExpUsers, ActUsers);
 		System.out.println("The Suscribers are " + ExpUsers +"  " + ActUsers );
 	}

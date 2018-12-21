@@ -1,3 +1,6 @@
+/**
+ * This Test will Delete the items that are added
+ */
 package com.training.sanity.tests;
 
 import java.io.FileInputStream;
@@ -46,23 +49,8 @@ public class Delete_Item {
 		screenShot = new ScreenShot(driver); 
 		// open the browser 
 		driver.get(baseUrl);
+	}
 		
-	}
-	/*
-	@BeforeTest
-	public void setUpTest() throws Exception {
-		driver = DriverFactory.getDriver(DriverNames.CHROME);
-		loginPOM = new LoginPOM(driver); 
-		adminPOM = new AdminPOM(driver);
-		suscribePOM = new SuscribePOM(driver);
-		baseUrl = properties.getProperty("baseURL");
-		screenShot = new ScreenShot(driver); 
-		// open the browser 
-		driver.get(baseUrl);
-	}
-	*/
-	
-	
 	@AfterMethod
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);

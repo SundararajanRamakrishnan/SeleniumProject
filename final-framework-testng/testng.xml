@@ -5,30 +5,11 @@
    <test name = "Sample test1">
       <classes>
          <class name = "com.training.sanity.tests.LoginTests" />
-      </classes>
-   </test>
-   
-   <test name = "Sample test2">
-      <classes>
          <class name = "com.training.sanity.tests.Add_Classes" />
-      </classes>
-   </test>
-   
-   <test name = "Sample test3">
-      <classes>
          <class name = "com.training.sanity.tests.Add_Suscribers" />
-      </classes>
-   </test>
-   
-   <test name = "Sample test4">
-      <classes>
          <class name = "com.training.sanity.tests.Add_Courses" />
-      </classes>
-   </test>
-   
-   <test name = "Sample test5">
-      <classes>
+         <class name = "com.training.sanity.tests.Delete_Item" />         
          <class name = "com.training.sanity.tests.Logout" />
       </classes>
-   </test>
+   </test>     
 </suite>	
