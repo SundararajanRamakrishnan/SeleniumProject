@@ -70,5 +70,22 @@ public class CoursePOM {
 		
 		
 	}
+	
+	public void usingaction()
+	{
+		Actions action = new Actions(driver);
+		action.moveToElement(this.AddCourse).sendKeys(Keys.chord(Keys.CONTROL, Keys.ENTER)).build().perform();		
+	}
+	
+	public void SwitchWindows()
+	{
+		String parentwindow = driver.getWindowHandle();
+		this.AddCourse.click();
+		
+		for (String childwindow: driver.getWindowHandles())
+		{
+			driver.switchTo().window(childwindow);
+		}
+	}
 
 }

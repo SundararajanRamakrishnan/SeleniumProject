@@ -4,12 +4,11 @@
 <suite name = "Sample test Suite">
    <test name = "Sample test1">
       <classes>
-         <class name = "com.training.sanity.tests.LoginTests" />
-         <class name = "com.training.sanity.tests.Add_Classes" />
-         <class name = "com.training.sanity.tests.Add_Suscribers" />
-         <class name = "com.training.sanity.tests.Add_Courses" />
-         <class name = "com.training.sanity.tests.Delete_Item" />         
-         <class name = "com.training.sanity.tests.Logout" />
+         <class name = "com.training.secondset.tests.TestCase56" />
+         <class name = "com.training.secondset.tests.TestCase57" />
+         <class name = "com.training.secondset.tests.TestCase58" />
+         <class name = "com.training.secondset.tests.TestCase59" />
+         <class name = "com.training.secondset.tests.TestCase60" />                      
       </classes>
    </test>     
 </suite>	

@@ -1,99 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="181674" started-at="2018-12-21T05:51:23Z" finished-at="2018-12-21T05:54:25Z">
+  <suite name="Sample test Suite" duration-ms="305204" started-at="2018-12-27T06:10:06Z" finished-at="2018-12-27T06:15:11Z">
     <groups>
     </groups>
-    <test name="Sample test1" duration-ms="181674" started-at="2018-12-21T05:51:23Z" finished-at="2018-12-21T05:54:25Z">
-      <class name="com.training.sanity.tests.Delete_Item">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Delete_Item@39aeed2f]" name="setUpBeforeClass" is-config="true" duration-ms="6842" started-at="2018-12-21T11:23:39Z" finished-at="2018-12-21T11:23:45Z">
+    <test name="Sample test1" duration-ms="305204" started-at="2018-12-27T06:10:06Z" finished-at="2018-12-27T06:15:11Z">
+      <class name="com.training.secondset.tests.TestCase59">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.secondset.tests.TestCase59@4cc0edeb]" name="setUpBeforeClass" is-config="true" duration-ms="9467" started-at="2018-12-27T11:42:39Z" finished-at="2018-12-27T11:42:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="validDeleteTest()[pri:0, instance:com.training.sanity.tests.Delete_Item@39aeed2f]" name="validDeleteTest" duration-ms="17002" started-at="2018-12-21T11:23:45Z" finished-at="2018-12-21T11:24:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validDeleteTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Delete_Item@39aeed2f]" name="tearDown" is-config="true" duration-ms="1926" started-at="2018-12-21T11:24:02Z" finished-at="2018-12-21T11:24:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.Delete_Item -->
-      <class name="com.training.sanity.tests.Add_Courses">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Add_Courses@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="8030" started-at="2018-12-21T11:23:03Z" finished-at="2018-12-21T11:23:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="validCourseTest()[pri:0, instance:com.training.sanity.tests.Add_Courses@5c7fa833]" name="validCourseTest" duration-ms="25880" started-at="2018-12-21T11:23:11Z" finished-at="2018-12-21T11:23:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validCourseTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Add_Courses@5c7fa833]" name="tearDown" is-config="true" duration-ms="2005" started-at="2018-12-21T11:23:37Z" finished-at="2018-12-21T11:23:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.Add_Courses -->
-      <class name="com.training.sanity.tests.Logout">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Logout@724af044]" name="setUpBeforeClass" is-config="true" duration-ms="7786" started-at="2018-12-21T11:24:04Z" finished-at="2018-12-21T11:24:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="validDeleteTest()[pri:0, instance:com.training.sanity.tests.Logout@724af044]" name="validDeleteTest" duration-ms="10301" started-at="2018-12-21T11:24:12Z" finished-at="2018-12-21T11:24:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validDeleteTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Logout@724af044]" name="tearDown" is-config="true" duration-ms="2055" started-at="2018-12-21T11:24:22Z" finished-at="2018-12-21T11:24:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.Logout -->
-      <class name="com.training.sanity.tests.LoginTests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.LoginTests@7823a2f9]" name="setUpBeforeClass" is-config="true" duration-ms="31" started-at="2018-12-21T11:21:23Z" finished-at="2018-12-21T11:21:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTests@7823a2f9]" name="setUp" is-config="true" duration-ms="10607" started-at="2018-12-21T11:21:23Z" finished-at="2018-12-21T11:21:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.LoginTests@7823a2f9]" name="validLoginTest" duration-ms="5149" started-at="2018-12-21T11:21:34Z" finished-at="2018-12-21T11:21:39Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.secondset.tests.TestCase59@4cc0edeb]" name="validLoginTest" duration-ms="66401" started-at="2018-12-27T11:42:48Z" finished-at="2018-12-27T11:43:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTests@7823a2f9]" name="tearDown" is-config="true" duration-ms="2203" started-at="2018-12-21T11:21:39Z" finished-at="2018-12-21T11:21:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.LoginTests -->
-      <class name="com.training.sanity.tests.Add_Suscribers">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Add_Suscribers@457e2f02]" name="setUpBeforeClass" is-config="true" duration-ms="9078" started-at="2018-12-21T11:22:21Z" finished-at="2018-12-21T11:22:30Z">
+      </class> <!-- com.training.secondset.tests.TestCase59 -->
+      <class name="com.training.secondset.tests.TestCase58">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.secondset.tests.TestCase58@7823a2f9]" name="setUpBeforeClass" is-config="true" duration-ms="9352" started-at="2018-12-27T11:41:55Z" finished-at="2018-12-27T11:42:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="validSuscribeTest()[pri:0, instance:com.training.sanity.tests.Add_Suscribers@457e2f02]" name="validSuscribeTest" duration-ms="30298" started-at="2018-12-21T11:22:30Z" finished-at="2018-12-21T11:23:01Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.secondset.tests.TestCase58@7823a2f9]" name="validLoginTest" duration-ms="34445" started-at="2018-12-27T11:42:04Z" finished-at="2018-12-27T11:42:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validSuscribeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Add_Suscribers@457e2f02]" name="tearDown" is-config="true" duration-ms="1934" started-at="2018-12-21T11:23:01Z" finished-at="2018-12-21T11:23:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.Add_Suscribers -->
-      <class name="com.training.sanity.tests.Add_Classes">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Add_Classes@4cc0edeb]" name="setUpBeforeClass" is-config="true" duration-ms="7944" started-at="2018-12-21T11:21:41Z" finished-at="2018-12-21T11:21:49Z">
+        </test-method> <!-- validLoginTest -->
+      </class> <!-- com.training.secondset.tests.TestCase58 -->
+      <class name="com.training.secondset.tests.TestCase57">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.secondset.tests.TestCase57@1b604f19]" name="setUpBeforeClass" is-config="true" duration-ms="8675" started-at="2018-12-27T11:40:58Z" finished-at="2018-12-27T11:41:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="validAdminTest()[pri:0, instance:com.training.sanity.tests.Add_Classes@4cc0edeb]" name="validAdminTest" duration-ms="30401" started-at="2018-12-21T11:21:49Z" finished-at="2018-12-21T11:22:19Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.secondset.tests.TestCase57@1b604f19]" name="validLoginTest" duration-ms="45347" started-at="2018-12-27T11:41:07Z" finished-at="2018-12-27T11:41:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validAdminTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Add_Classes@4cc0edeb]" name="tearDown" is-config="true" duration-ms="2143" started-at="2018-12-21T11:22:19Z" finished-at="2018-12-21T11:22:21Z">
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.secondset.tests.TestCase57@1b604f19]" name="tearDown" is-config="true" duration-ms="2494" started-at="2018-12-27T11:41:52Z" finished-at="2018-12-27T11:41:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.Add_Classes -->
+      </class> <!-- com.training.secondset.tests.TestCase57 -->
+      <class name="com.training.secondset.tests.TestCase56">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.secondset.tests.TestCase56@1593948d]" name="setUpBeforeClass" is-config="true" duration-ms="12315" started-at="2018-12-27T11:40:06Z" finished-at="2018-12-27T11:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.secondset.tests.TestCase56@1593948d]" name="validLoginTest" duration-ms="37919" started-at="2018-12-27T11:40:18Z" finished-at="2018-12-27T11:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.secondset.tests.TestCase56@1593948d]" name="tearDown" is-config="true" duration-ms="2517" started-at="2018-12-27T11:40:56Z" finished-at="2018-12-27T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.secondset.tests.TestCase56 -->
+      <class name="com.training.secondset.tests.TestCase60">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.secondset.tests.TestCase60@457e2f02]" name="setUpBeforeClass" is-config="true" duration-ms="9230" started-at="2018-12-27T11:43:55Z" finished-at="2018-12-27T11:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.secondset.tests.TestCase60@457e2f02]" name="validLoginTest" duration-ms="66999" started-at="2018-12-27T11:44:04Z" finished-at="2018-12-27T11:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+      </class> <!-- com.training.secondset.tests.TestCase60 -->
     </test> <!-- Sample test1 -->
   </suite> <!-- Sample test Suite -->
 </testng-results>

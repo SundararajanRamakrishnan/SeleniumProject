@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Sample test Suite]">
-  <test name="Sample test(failed)">
+  <test name="Sample test1(failed)">
     <classes>
-      <class name="com.training.regression.tests.LoginDBTest">
+      <class name="com.training.secondset.tests.TestCase58">
         <methods>
-          <include name="tearDown"/>
-          <include name="loginDBTest"/>
-          <include name="setUp"/>
           <include name="setUpBeforeClass"/>
+          <include name="validLoginTest"/>
         </methods>
-      </class> <!-- com.training.regression.tests.LoginDBTest -->
+      </class> <!-- com.training.secondset.tests.TestCase58 -->
+      <class name="com.training.secondset.tests.TestCase59">
+        <methods>
+          <include name="setUpBeforeClass"/>
+          <include name="validLoginTest"/>
+        </methods>
+      </class> <!-- com.training.secondset.tests.TestCase59 -->
+      <class name="com.training.secondset.tests.TestCase57">
+        <methods>
+          <include name="validLoginTest"/>
+          <include name="setUpBeforeClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.training.secondset.tests.TestCase57 -->
     </classes>
-  </test> <!-- Sample test(failed) -->
+  </test> <!-- Sample test1(failed) -->
 </suite> <!-- Failed suite [Sample test Suite] -->
