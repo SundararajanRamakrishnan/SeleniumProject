@@ -30,7 +30,7 @@ import com.trianing.waits.WaitTypes;
  * @author Sundararajan R
  *
  */
-public class TestCase56 {
+public class AddUserAddSubscribers_TC56 {
 		private WebDriver driver;
 		private String baseUrl;
 		private LoginPOM loginPOM;

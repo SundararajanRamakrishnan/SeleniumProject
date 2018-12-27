@@ -26,7 +26,7 @@ import com.training.utility.DriverNames;
  * @author IBM
  *
  */
-public class TestCase59 {
+public class CreateCourseSubscriberUser_TC59 {
 	private WebDriver driver;
 	private String baseUrl;
 	private LoginPOM loginPOM;

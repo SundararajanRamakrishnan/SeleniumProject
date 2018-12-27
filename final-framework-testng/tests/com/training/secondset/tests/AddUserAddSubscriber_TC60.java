@@ -27,7 +27,7 @@ import com.training.utility.DriverNames;
  * @author Sundararajan R
  *
  */
-public class TestCase60 {
+public class AddUserAddSubscriber_TC60 {
 	private WebDriver driver;
 	private String baseUrl;
 	private LoginPOM loginPOM;

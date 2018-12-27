@@ -27,7 +27,7 @@ import com.training.utility.DriverNames;
  * @author Sundararajan R
  *
  */
-public class TestCase58 {
+public class CreateCourseAddSession_TC58 {
 	private WebDriver driver;
 	private String baseUrl;
 	private LoginPOM loginPOM;

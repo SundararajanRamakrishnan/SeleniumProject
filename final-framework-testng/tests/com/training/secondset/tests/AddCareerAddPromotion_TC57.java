@@ -21,7 +21,7 @@ import com.training.utility.DriverNames;
  * @author Sundararajan R
  *
  */
-public class TestCase57 {
+public class AddCareerAddPromotion_TC57 {
 	private WebDriver driver;
 	private String baseUrl;
 	private LoginPOM loginPOM;
