@@ -82,5 +82,6 @@ public class AddUserAddSubscribers_TC56 {
 			addcoursesuscribersPOM.SelectUsers();
 			addcoursesuscribersPOM.ClickForwardButton();
 			addcoursesuscribersPOM.ClickAddCoursesButton();
+			screenShot.captureScreenShot("TC56_Final");
 		}
 }

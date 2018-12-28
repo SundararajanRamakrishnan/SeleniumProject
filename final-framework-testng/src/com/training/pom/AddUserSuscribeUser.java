@@ -104,6 +104,12 @@ private WebDriver driver;
 		this.loginid.sendKeys(name);
 	}
 	
+	public void EnterPasswordInTextBox(String name)
+	{
+		this.loginpwd.clear();
+		this.loginpwd.sendKeys(name);
+	}
+	
 	
 	public void SelectManualRadioButton()
 	{

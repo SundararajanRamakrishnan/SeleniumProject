@@ -40,7 +40,7 @@ private WebDriver driver;
 	@FindBy(xpath="//*[@id=\"update_course\"]/fieldset/div[3]/div[1]/div/div/div/input")
 	private WebElement teachers;
 	
-	@FindBy(xpath="//*[@id=\"update_course\"]/fieldset/div[3]/div[1]/div/div/ul/li[7]/a/span[2]")
+	@FindBy(xpath="//*[@id=\"update_course\"]/fieldset/div[3]/div[1]/div/div/ul/li[@class='selected']/a/span[@class='glyphicon glyphicon-ok check-mark']")
 	private WebElement unchecktick;
 	
 	@FindBy(xpath="//*[@id=\"update_course\"]/fieldset/div[3]/div[1]/div/div/ul/li[3]/a")

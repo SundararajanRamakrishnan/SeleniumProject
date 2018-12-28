@@ -15,8 +15,8 @@ public class HandlingFrames {
 		
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\IBM_ADMIN\\Desktop\\SeleniumTool\\Tools\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://ec2-13-233-153-88.ap-south-1.compute.amazonaws.com:8080/web/do/login");
-		driver.findElement(By.id("cyclosUsername")).sendKeys("admin");
+		driver.get("http://elearning.hommelle.com/index.php");
+		driver.findElement(By.id("login")).sendKeys("admin");
 		driver.findElement(By.id("cyclosPassword")).sendKeys("1234");
 		driver.findElement(By.xpath("//table[@class='nested']/tbody/tr[3]/td/input")).click();
 		driver.findElement(By.id("memberUsername")).sendKeys("poongodi");

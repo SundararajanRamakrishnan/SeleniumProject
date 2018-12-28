@@ -81,7 +81,7 @@ public class CreateCourseAddSession_TC58 {
 		addcoursesessionPOM.ClickCreateCourseButton();
 		addcoursesessionPOM.ClickAdminLink();
 		addcoursesessionPOM.ClickAddTrainingLink();
-		addcoursesessionPOM.EnterSessionName("selenium training Demo");
+		addcoursesessionPOM.EnterSessionName("selenium training Demo session");
 		boolean Expectedtext = true;
 		boolean Actualtext = addcoursesessionPOM.GetSessionName();
 		System.out.println("The Session Name is " + Expectedtext + " " + Actualtext );
@@ -92,7 +92,7 @@ public class CreateCourseAddSession_TC58 {
 		addcoursesessionPOM.SelectUserFromList("Su");
 		addcoursesessionPOM.ClickFinishSession();
 		Thread.sleep(3000);
-		screenShot.captureScreenShot();		
+		screenShot.captureScreenShot("TC58_Final");		
 	}	
 
 }

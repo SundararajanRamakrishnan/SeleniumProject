@@ -87,6 +87,8 @@ public class AddUserAddSubscriber_TC60 {
 		Assert.assertEquals(Expected, Actual);
 		System.out.println("The Radio button selected is " + Expected + " " + Actual);
 		
+		addusersuscribeuser.EnterPasswordInTextBox("Abc@123");
+		
 		//addusersuscribeuser.scrolldownpage();
 		addusersuscribeuser.ClickProfileDropDown();
 		addusersuscribeuser.SelectProfileOptions();
@@ -136,6 +138,7 @@ public class AddUserAddSubscriber_TC60 {
 		boolean ActCourses = coursePOM.CoursesSuscribed();
 		Assert.assertEquals(ExpUsers, ActUsers);
 		System.out.println("The Courses Opted are " + ExpCourses +"  " + ActCourses );
+		screenShot.captureScreenShot("TC60_Final");
 		
 		
 	}

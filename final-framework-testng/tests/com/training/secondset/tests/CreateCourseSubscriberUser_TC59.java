@@ -132,6 +132,7 @@ public class CreateCourseSubscriberUser_TC59 {
 		boolean ActCourses = coursePOM.CoursesSuscribed();
 		Assert.assertEquals(ExpUsers, ActUsers);
 		System.out.println("The Courses Opted are " + ExpCourses +"  " + ActCourses );
+		screenShot.captureScreenShot("FinalPage");
 	}
 	
 

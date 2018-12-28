@@ -83,5 +83,7 @@ public class AddCareerAddPromotion_TC57 {
 		addpromotionscareerPOM.ClickNextStepButton();
 		addpromotionscareerPOM.SelectUserFromList("Su");
 		addpromotionscareerPOM.ClickFinishSessionCreation();
+		screenShot.captureScreenShot("TC57_Final");
+		
 	}	
 }

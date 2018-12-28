@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.secondset.tests.TestCase60">
+      <class name="com.training.secondset.tests.CreateCourseAddSession_TC58">
         <methods>
-          <include name="validLoginTest"/>
           <include name="setUpBeforeClass"/>
+          <include name="tearDown"/>
+          <include name="validLoginTest"/>
         </methods>
-      </class> <!-- com.training.secondset.tests.TestCase60 -->
+      </class> <!-- com.training.secondset.tests.CreateCourseAddSession_TC58 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
