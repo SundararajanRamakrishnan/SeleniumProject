@@ -4,11 +4,11 @@
 <suite name = "Sample test Suite">
    <test name = "Sample test1">
       <classes>
-         <class name = "com.training.secondset.tests.AddUserAddSubscribers_TC56" />
-         <class name = "com.training.secondset.tests.AddCareerAddPromotion_TC57" />
-         <class name = "com.training.secondset.tests.CreateCourseAddSession_TC58" />
-         <class name = "com.training.secondset.tests.CreateCourseSubscriberUser_TC59" />
-         <class name = "com.training.secondset.tests.AddUserAddSubscriber_TC60" />                      
+         <class name = "com.training.regression.tests.TC86Test" />
+         <class name = "com.training.regression.tests.TC87Test" />
+         <class name = "com.training.regression.tests.TC88Test" />
+         <class name = "com.training.regression.tests.TC89Test" />
+         <class name = "com.training.regression.tests.TC90Test" />                      
       </classes>
    </test>     
 </suite>	

@@ -25,15 +25,16 @@ public class LoginDataProviders {
 			result[count ++] = obj; 
 		}
 		
-		
 		return result;
-	}
+	}	
+	
 	
 	@DataProvider(name = "excel-inputs")
 	public Object[][] getExcelData(){
-		String fileName = "C:/Users/Naveen/Desktop/Testing.xlsx";
+		String fileName = "C:\\Users\\IBM_ADMIN\\Desktop\\Selenium_New_Project\\RequiredFiles\\ExcelFiles\\TestData.xlsx";
+		String sheetName = "Login";
 
-		List<List<Object>> retVal = ApachePOIExcelRead.getExcelContent(fileName);
+		List<List<Object>> retVal = ApachePOIExcelRead.getExcelContent(fileName, sheetName);
 		System.out.println("size " + retVal.size());
 		
 		Object[][] result = new Object[retVal.size()][retVal.size()]; 
@@ -54,6 +55,5 @@ public class LoginDataProviders {
 		
 		return result; 
 	}
-	
 	
 }
